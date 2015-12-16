@@ -1,6 +1,16 @@
-/* TEAM */
+/*  TEAM  */
 
-Name: Angus
+Title: Angus
+Job: Website Manager/Developer
 Site: angussidney.github.io
 Email: angussidney17@gmail.com
 Location: NSW, Australia
+
+/* THANKS */
+
+
+/*  SITE  */
+Last Update: YYYY/MM/DD
+Standards: HTML5, CSS3
+Components: jQuery
+Software: Brackets.io, Github
