@@ -1,4 +1,42 @@
+/* TEXT */
+
 @font-face {
   font-family: roboto;
-  src: url('/assets/fonts/roboto/Roboto-Regular.ttf') format('truetype');
+  src: url('fonts/roboto/Roboto-Regular.ttf') format('truetype');
 }
+
+* {
+  font-family: roboto;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+/* GLOBAL */
+
+html {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.content {
+  width: 1024px;
+  margin: auto;
+  padding-top: 
+}
+
+.header-background {
+  background-color: #FFC107;
+  width: 100;
+}
+
+*[role="button"] {
+  color
+}
+
