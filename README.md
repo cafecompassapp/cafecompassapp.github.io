@@ -10,4 +10,3 @@ If you have an idea or feature request, please put it on our [issue tracker](htt
 
  - HTML, CSS, JavaScript
  - jQuery
- - Bootstrap
