@@ -1,3 +1,5 @@
+**NOTE:** This is the old version of the website. Please switch to master branch.
+
 # Cafe Compass App Website
 
 This is our website. Angus will be doing most of the dev of this.
