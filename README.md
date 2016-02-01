@@ -12,6 +12,8 @@ If you want to change something else yourself, do the following:
 
 If you have an idea or feature request, please put it on our [issue tracker](https://github.com/cafecompassapp/cafecompassapp.github.io/issues).
 
+Coding documention can be found in the [wiki](https://github.com/cafecompassapp/cafecompassapp.github.io/wiki).
+
 ####Technologies
 
  - HTML, CSS

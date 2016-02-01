@@ -38,9 +38,12 @@ REMEMBER TO USE FIGURE TAG FOR IMAGES WITH CAPTIONS
   font-family: roboto, Tahoma, Geneva, sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, p {
   color: rgba(0, 0, 0, 0.87);
-  margin: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 5px;
   padding: 0px;
 }
 
@@ -61,8 +64,16 @@ h4 {
   font-size: 24px;
 }
 
+p {
+  font-size: 18px;
+}
+
+figure {
+  margin-left: 100px;
+}
+
 figcaption {
-  font-size: 8.5px;
+  font-size: 12px;
 }
 
 /* TEXT - HELPER CLASSES */
@@ -75,7 +86,7 @@ strong {
   font-weight: bold;
 }
 
-.subheading {
+header p {
   
 }
 
@@ -160,5 +171,3 @@ body {
   padding-top: 50px;
   padding-bottom: 50px;
 }
-
-3C7AE1
