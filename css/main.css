@@ -86,6 +86,14 @@ strong {
   font-weight: bold;
 }
 
+.secondary {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.hint {
+  color: rgba(0, 0, 0, 0.38);
+}
+
 header p {
   
 }
