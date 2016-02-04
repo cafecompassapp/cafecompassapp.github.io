@@ -1,8 +1,6 @@
 /*
 SP -> PX
 SP / 1.4 = PX
-
-REMEMBER TO USE FIGURE TAG FOR IMAGES WITH CAPTIONS
 */
 
 
@@ -11,7 +9,9 @@ REMEMBER TO USE FIGURE TAG FOR IMAGES WITH CAPTIONS
 
 
 
-/* TEXT */
+/* ---- TEXT ---- */
+
+/* FONT IMPORTS */
 
 @font-face {
   font-family: roboto;
@@ -25,14 +25,44 @@ REMEMBER TO USE FIGURE TAG FOR IMAGES WITH CAPTIONS
 }
 
 @font-face {
+  font-family: roboto;
+  src: url(fonts/roboto/Roboto-Italic.ttf) format('truetype');
+  font-style: italic;
+}
+
+@font-face {
+  font-family: roboto;
+  src: url(fonts/roboto/Roboto-BoldItalic.ttf) format('truetype');
+  font-style: italic;
+  font-weight: bold;
+}
+
+
+
+@font-face {
   font-family: roboto-medium;
   src: url('fonts/roboto/Roboto-Medium.ttf') format('truetype');
 }
 
 @font-face {
+  font-family: roboto-medium;
+  src: url('fonts/roboto/Roboto-MediumItalic.ttf') format('truetype');
+  font-style: italic;
+}
+
+
+
+@font-face {
   font-family: roboto-light;
   src: url('fonts/roboto/Roboto-Light.ttf') format('truetype');
 }
+
+@font-face {
+  font-family: roboto-light;
+  src: url('fonts/roboto/Roboto-LightItalic.ttf') format('truetype');
+}
+
+/* BASE TEXT STYLES */
 
 * {
   font-family: roboto, Tahoma, Geneva, sans-serif;
@@ -76,14 +106,27 @@ figcaption {
   font-size: 12px;
 }
 
-/* TEXT - HELPER CLASSES */
-
-.medium {
-  font-family: roboto-medium;
+header p {
+  font-style: italic;
+  font-family: roboto-light;
 }
+
+footer p:nth-child(2) {
+  
+}
+
+/* HELPER CLASSES */
 
 strong {
   font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+.medium {
+  font-family: roboto-medium;
 }
 
 .secondary {
@@ -94,11 +137,7 @@ strong {
   color: rgba(0, 0, 0, 0.38);
 }
 
-header p {
-  
-}
-
-/* ELEMENTS */
+/* ---- ELEMENTS ---- */
 
 .button {
   color: rgba(0, 0, 0, 0.87);
@@ -152,7 +191,7 @@ header p {
   background: none;
 }
 
-/* STRUCTURE */
+/* ---- STRUCTURE ---- */
 
 
 body, html {
@@ -178,4 +217,8 @@ body {
 .head {
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+header {
+  margin-bottom: 30px;
 }
