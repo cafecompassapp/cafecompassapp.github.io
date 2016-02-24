@@ -3,8 +3,6 @@ SP -> PX
 SP / 1.4 = PX
 */
 
-/* -------- GLOBAL -------- */
-
 /* ---- TEXT ---- */
 
 /* FONT IMPORTS */
@@ -93,22 +91,27 @@ h1, h2, h3, h4, p {
 h1 {
   font-size: 80px;
   font-family: roboto-light;
+  font-weight: bold;
 }
 
 h2 {
   font-size: 40px;
+  font-weight: normal;
 }
 
 h3 {
   font-size: 32px;
+  font-weight: normal;
 }
 
 h4 {
   font-size: 24px;
+  font-weight: normal;
 }
 
 p {
   font-size: 18px;
+  text-align: justify;
 }
 
 time {
@@ -217,6 +220,10 @@ em {
 
 .button-disabled.button-flat:hover, .button-disabled.button-flat:active {
   background: none;
+}
+
+.button-disabled {
+  cursor: not-allowed;
 }
 
 hr {
