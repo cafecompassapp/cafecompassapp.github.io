@@ -2,23 +2,18 @@
   width: 30%;
   display: inline-block;
   vertical-align: text-top;
-  margin-right: 4%;
+  margin-right: 5%;
 }
 
 .download {
   width: 30%;
   display: inline-block;
   vertical-align: text-top;
-  margin: 0px;
 }
 
 .contact {
   width: 30%;
   display: inline-block;
   vertical-align: text-top;
-  margin-right: 4%;
-}
-
-.content {
-  
+  margin-right: 5%;
 }

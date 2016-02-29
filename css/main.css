@@ -1,6 +1,7 @@
 /*
 SP -> PX
 SP / 1.4 = PX
+parallax scrolling
 */
 
 /* ---- TEXT ---- */
@@ -90,7 +91,7 @@ h1, h2, h3, h4, p {
 
 h1 {
   font-size: 80px;
-  font-family: roboto-light;
+  font-family: roboto-light, Tahoma, Geneva, sans-serif;
   font-weight: bold;
 }
 
@@ -125,12 +126,12 @@ figcaption {
 
 header p {
   font-style: italic;
-  font-family: roboto-light;
+  font-family: roboto-light, Tahoma, Geneva, sans-serif;
 }
 
 footer p:not(:first-child) {
   font-style: italic;
-  font-family: roboto-light;
+  font-family: roboto-light, Tahoma, Geneva, sans-serif;
 }
 
 a, a:visited {
@@ -153,7 +154,7 @@ em {
 }
 
 .medium {
-  font-family: roboto-medium;
+  font-family: roboto-medium, Tahoma, Geneva, sans-serif;
 }
 
 .secondary {
@@ -234,6 +235,8 @@ hr {
   color: rgba(0, 0, 0, 0.87);
   padding-left: 10px;
   padding-right: 10px;
+  text-transform: uppercase;
+  font-size: 15px;
 }
 
 .nav-content ul li a i {
@@ -245,24 +248,14 @@ hr {
   border-bottom: 2px solid #448AFF;
 }
 
+.nav-content ul li a.selected {
+  color: rgba(0, 0, 0, 0.87);
+  border-bottom: 2px solid #448AFF;
+}
+
 /* ---- STRUCTURE ---- */
 
 /* SECTIONS */
-
-.pictureless-header-background {
-  background-color: #FFC107;
-  width: 100%;
-}
-
-.body-background {
-  width: 100%;
-  padding-top: 30px;
-}
-
-.content {
-  width: 1024px;
-  margin: 0 auto;
-}
 
 nav {
   background-color: #FFA000;
@@ -280,7 +273,6 @@ nav {
 }
 
 .nav-content ul {
-  list-style: none;
   padding: 0px;
   margin: 0px;
 }
@@ -292,15 +284,55 @@ nav {
   margin: 0;
 }
 
+.pictureless-header-background {
+  background-color: #FFC107;
+  width: 100%;
+}
+
+.body-background {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.content {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.footer {
+  width: 100%;
+  background-color: #FFA000;
+}
+
+.logos {
+  display: inline-block;
+  width: 47%;
+  vertical-align: text-top;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 6%;
+}
+
+.links {
+  display: inline-block;
+  width: 47%;
+  vertical-align: text-top;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.links ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
 /* MARGINS AND PADDING */
 
 body, html {
   padding: 0px;
   margin: 0px;
-}
-
-body {
-  margin: auto;
 }
 
 .head {
@@ -318,8 +350,4 @@ header h3 {
 
 footer {
   margin-top: 30px;
-}
-
-figure {
-  margin-left: 100px;
 }
